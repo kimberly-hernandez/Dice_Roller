@@ -9,8 +9,11 @@
 <body>
     <label for = "dice">Enter a number of dice:</label>
 
-    <input type = "text" id = "dice" name= "dice" minlength="4" maxlength="8"
-    size= "10">
-    
+    <input type = "text" id = "numDice" name= "dice" >
+    <button class="roll" id="rollButton" type="button" >Roll!</button>
+    <p >total: <span id = "total">___</span></p>
+        <p><button id="showAllBtn" type="button">Show All Rolls</button></p>
+    <ol id="rollsList"></ol>
+    <script src="main.js"></script>
 </body>
 </html>
